@@ -1,5 +1,9 @@
 # Detecção de Anomalias em Dados de Telemetria
 
+
+![alt text](transferir.png)
+
+
 # ##  Sobre o projeto
 # Este projeto foi desenvolvido com o objetivo de explorar, na prática, como dados de 
 #telemetria podem ser utilizados para identificar padrões e detectar possíveis anomalias em ambientes operacionais.Como inspiração criei esse miniprojeto pensando no processo seltetivo da vale , para analçise dados avançado, afim de poder participar caso possível e poder apreender um pouco mais sobre as regras de negócio da compania voltadas ao
@@ -75,3 +79,5 @@
 
 # ##  Autor
 # João Pedro Maniezi
+
+
