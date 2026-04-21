@@ -76,3 +76,8 @@ Durante o desenvolvimento deste projeto, foram explorados conceitos como:
 ##  Autor
 João Pedro Maniezi
 <img width="1151" height="547" alt="transferir" src="https://github.com/user-attachments/assets/88dcdfea-9989-492e-9e12-e20906bfebb1" />
+
+## Projeto desenvolvido no Excel
+
+<img width="1823" height="645" alt="image" src="https://github.com/user-attachments/assets/b0eb5dfb-a818-4689-bb42-78d130ae88b2" />
+
