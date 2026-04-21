@@ -1,0 +1,1 @@
+# -Detec-o-de-Anomalias-em-Dados-de-Telemetria
