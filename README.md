@@ -1,27 +1,30 @@
-Detecção de Anomalias em Dados de Telemetria
+# 📊 Detecção de Anomalias em Dados de Telemetria
 
-##  Sobre o projeto
-Este projeto foi desenvolvido com o objetivo de explorar, na prática, como dados de 
-telemetria podem ser utilizados para identificar padrões e detectar possíveis anomalias em ambientes operacionais.Como inspiração criei esse miniprojeto pensando no processo seltetivo da vale , para analçise dados avançado, afim de poder participar caso possível e poder apreender um pouco mais sobre as regras de negócio da compania voltadas ao
+## 🧠 Sobre o projeto
+Este projeto foi desenvolvido com o objetivo de explorar, na prática, como dados de telemetria podem ser utilizados para identificar padrões e detectar possíveis anomalias em ambientes operacionais.
 
-A proposta é simular o monitoramento de equipamentos industriais a partir de variáveis como temperatura, vibração e uso da máquina.
+A ideia surgiu a partir do interesse em entender melhor como a análise de dados pode ser aplicada em contextos industriais, como no monitoramento de equipamentos. O projeto também foi inspirado em desafios reais de análise de dados, como os propostos em programas de desenvolvimento da indústria.
+
+A proposta consiste em simular o monitoramento de equipamentos a partir de variáveis como temperatura, vibração e uso da máquina, buscando identificar comportamentos fora do padrão.
 
 ---
 
-##  Objetivo
+## 🎯 Objetivo
 Construir uma solução simples para:
-- analisar dados ao longo do tempo
-- identificar desvios de comportamento
-- gerar alertas básicos (Normal, Atenção, Crítico)
+- Analisar dados ao longo do tempo  
+- Identificar desvios de comportamento  
+- Gerar alertas básicos (Normal, Atenção e Crítico)  
 
 ---
 
-##  Como funciona
-O projeto utiliza conceitos básicos de estatística:
+## ⚙️ Como funciona
+O projeto utiliza conceitos básicos de estatística para identificar anomalias:
 
-- Média → comportamento esperado  
-- Desvio padrão → variação dos dados  
-- Z-score → medida de distância em relação ao padrão  
+- **Média** → comportamento esperado  
+- **Desvio padrão** → variação dos dados  
+- **Z-score** → distância de cada valor em relação ao padrão  
+
+A análise considera múltiplas variáveis simultaneamente (temperatura, vibração e uso da máquina). Para cada instante, é avaliado o maior desvio entre elas, permitindo identificar situações de risco mesmo quando apenas um dos sensores apresenta comportamento anômalo.
 
 Com base nisso, cada ponto é classificado como:
 - 🟢 Normal  
@@ -30,54 +33,70 @@ Com base nisso, cada ponto é classificado como:
 
 ---
 
-## Dados utilizados
+## 🏭 Contexto aplicado
+Em ambientes industriais, equipamentos geram dados continuamente. Variações fora do padrão podem indicar desgaste, falhas ou uso inadequado.
+
+A identificação antecipada dessas anomalias permite:
+- Reduzir falhas inesperadas  
+- Melhorar a manutenção preventiva  
+- Aumentar a eficiência operacional  
+
+---
+
+## 📊 Dados utilizados
 Os dados são simulados e representam:
 - Temperatura de equipamento  
 - Vibração  
 - Nível de utilização  
 
-Também foram inseridas anomalias artificiais para simular possíveis falhas.
+Foram inseridas anomalias artificiais para simular possíveis falhas e validar a lógica de detecção.
 
 ---
 
-##  Tecnologias utilizadas
+## 🛠️ Tecnologias utilizadas
 - Python  
 - Pandas  
 - NumPy  
 - Matplotlib  
+- Excel (análise complementar)
 
 ---
 
-## Resultados
-A solução permite visualizar:
-- comportamento dos dados ao longo do tempo  
-- pontos fora do padrão  
-- possíveis alertas de falha  
+## 📈 Resultados
+A solução permite:
+- Visualizar o comportamento dos dados ao longo do tempo  
+- Identificar pontos fora do padrão  
+- Gerar alertas simples para apoio à tomada de decisão  
 
 ---
 
-## Aprendizados
+## 📚 Aprendizados
 Durante o desenvolvimento deste projeto, foram explorados conceitos como:
-- análise exploratória de dados (EDA)  
-- estatística aplicada  
-- identificação de padrões  
-- lógica de detecção de anomalias  
+- Análise exploratória de dados (EDA)  
+- Estatística aplicada  
+- Identificação de padrões  
+- Lógica de detecção de anomalias  
+- Importância do contexto na análise de dados  
 
 ---
 
-##  Possíveis melhorias
-- utilização de dados reais  
-- implementação de modelos de machine learning  
-- integração com sistemas em tempo real  
-- escalabilidade em ambientes de Big Data  
+## 🚀 Possíveis melhorias
+- Utilização de dados reais  
+- Implementação de modelos de machine learning  
+- Integração com sistemas em tempo real  
+- Escalabilidade em ambientes de Big Data  
 
 ---
 
-##  Autor
+## 👨‍💻 Autor
 João Pedro Maniezi
-<img width="1151" height="547" alt="transferir" src="https://github.com/user-attachments/assets/88dcdfea-9989-492e-9e12-e20906bfebb1" />
 
-## Projeto desenvolvido no Excel
+---
 
-<img width="1823" height="645" alt="image" src="https://github.com/user-attachments/assets/b0eb5dfb-a818-4689-bb42-78d130ae88b2" />
+## 📷 Visualizações
 
+### 📉 Análise em Python
+![Gráfico Python](https://github.com/user-attachments/assets/88dcdfea-9989-492e-9e12-e20906bfebb1)
+
+### 📊 Análise no Excel
+![Análise Excel](https://github.com/user-attachments/assets/b0eb5dfb-a818-4689-bb42-78d130ae88b2)
